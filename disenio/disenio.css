@@ -1,0 +1,122 @@
+html {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #595959;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background: #B7D940;
+  border-left: 5px solid #595959;
+}
+
+h2 {
+  background: #595959;
+  padding: 3rem;
+  padding-bottom: 2rem;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #B7D940;
+}
+
+.tabla {
+  padding: 1rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.tabla .tabla-billetes {
+  text-align: center;
+}
+
+.tabla .tabla-billetes table tr th {
+  padding: 1rem;
+}
+
+.tabla .tabla-billetes table tr td {
+  color: white;
+  font-size: 2rem;
+  padding: 1rem .5rem;
+}
+
+.tabla .totales {
+  width: 30%;
+  margin-top: 3rem;
+  text-align: center;
+  padding-right: 1rem;
+}
+
+.tabla .totales .cantidad h3 {
+  font-size: 1rem;
+}
+
+.tabla .totales .cantidad .totalNum {
+  font-size: 3rem;
+  color: #B7D940;
+}
+
+.dollar {
+  background: #595959;
+  padding: .5rem 0;
+  height: 15px;
+  width: 100%;
+  font-size: 1rem;
+  position: relative;
+  border-radius: .3rem;
+  outline-color: red;
+}
+
+.dollar span {
+  background: #B7D940;
+  display: inline-block;
+  width: 20px;
+  padding: .2rem .8rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 15%;
+  top: 3px;
+  color: #595959;
+}
+
+.totales .cantidad span {
+  font-size: .8rem;
+  text-align: center;
+}
+
+.botonera {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem;
+}
+
+.botonera div {
+  width: 50%;
+  margin: 1rem;
+  border: 1px tranparent;
+  color: white;
+  font-size: 2rem;
+  background: #B7D940;
+  cursor: pointer;
+}
+
+.botonera div:hover {
+  background: #A0C13A;
+}
+
+.sombra {
+  box-shadow: inset -1px -1px 16px 0px #595959;
+}
+
+.btn {
+  background: white;
+  text-align: center;
+  padding: .5rem 0;
+  border-radius: 2rem;
+}
